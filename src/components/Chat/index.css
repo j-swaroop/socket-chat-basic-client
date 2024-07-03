@@ -1,0 +1,140 @@
+.chat-container{
+    border: 1px solid #323f4b;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.chat-header{
+    width: 100%;
+    background-color: green;
+    /* padding: 10px; */
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.live-text{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.chat-body{
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.chat-footer{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #323f4b;
+}
+.input{
+    height: 38px;
+    width: 90%;
+    margin-bottom: 0;
+    border-radius: 0;
+    font-size: 15px;
+}
+.send-msg-btn{
+    height: 100%;
+    background-color: green;
+    border: none;
+    width: 10%;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.chatt{
+    width: 50%;
+    /* background-color: rgb(115, 126, 135); */
+    border-radius: 15px;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.chat{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.author-time{
+    display: flex;
+    align-items: center;
+}
+.msg{
+    color: #1a1919;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-bottom: 5px;
+    word-break: break-all;
+}
+.author{
+    color: rgb(77, 76, 78);
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin-left: 6px;
+}
+.time{
+    color: #949090;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+#Otherr{
+    align-self: flex-end;
+    
+    
+}
+#Other{
+    align-self: flex-end;
+    background-color: rgb(3, 149, 203);
+    color: rgb(235, 230, 230);
+    border-radius: 18px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#Youu{
+    align-self: flex-start;
+    /* background-color: rgba(199, 201, 204, 0.177); */
+   
+}
+#You{
+    align-self: flex-start;
+    background-color: rgba(199, 201, 204, 0.786);
+    border-radius: 8px;
+    border-radius: 18px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    /* padding-top: 2px; */
+}
+.msg-other{
+    margin-bottom: 5px;
+    word-break: break-all;
+}
+.time-other{
+    color: #525252;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+.author-other{
+    margin-left: 6px;
+    color: rgb(33, 33, 33);
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+.csss{
+    height: 500px;
+}
